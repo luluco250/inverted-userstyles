@@ -1,0 +1,25 @@
+body
+,img
+,video
+,iframe
+,.mw-mmv-pre-image
+,.mw-mmv-stripe-button
+,.mwe-popups svg
+{
+	filter: invert() hue-rotate(180deg);
+}
+
+body
+{
+	background: black;
+}
+
+.mwe-math-fallback-image-inline
+{
+	filter: none;
+}
+
+.mw-mmv-overlay
+{
+	background: white;
+}
