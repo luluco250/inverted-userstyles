@@ -1,0 +1,21 @@
+html
+,img
+,video
+,iframe
+,.image
+,.profileHeaderBackground
+,.header
+,.headerSearch
+,#searchMenuList
+,.g-type-shrinkwrap-block
+,.mobileAppsButtons
+,.frontHero
+,.l-front-osc-teaser
+{
+	filter: invert() hue-rotate(180deg);
+}
+
+html
+{
+	background: black;
+}
