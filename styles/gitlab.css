@@ -1,0 +1,28 @@
+html
+,img
+,video
+,iframe
+,header.navbar
+,.code
+,.code > .notes_holder
+,.toggle-icon
+,gl-emoji
+,.notes_holder
+{
+	filter: invert() hue-rotate(180deg);
+}
+
+html
+{
+	background: black;
+}
+
+header.navbar
+{
+	border: none;
+}
+
+header.navbar *
+{
+	filter: none;
+}
