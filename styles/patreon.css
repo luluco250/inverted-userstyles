@@ -1,0 +1,17 @@
+html {
+	background: black;
+}
+
+html
+,img
+,video
+,iframe
+,div[src]
+{
+	filter: invert(1) hue-rotate(180deg);
+}
+
+iframe:fullscreen
+{
+	filter: none;
+}
