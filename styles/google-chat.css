@@ -1,0 +1,13 @@
+@-moz-document url-prefix("https://mail.google.com/chat/"), url-prefix("https://chat.google.com/") {
+	html
+	,img
+	,video
+	,iframe
+	{
+		filter: invert(1) hue-rotate(180deg);
+	}
+
+	html {
+		background: black;
+	}
+}
